@@ -1,0 +1,1 @@
+$(function(){var s=$(".p-globalNav"),l=s.offset();$(window).scroll(function(){$(window).scrollTop()>l.top?(s.addClass("is-fixed"),s.css("margin-left",l.left)):(s.removeClass("is-fixed"),s.css("margin-left","0"))})});
