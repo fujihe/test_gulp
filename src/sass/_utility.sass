@@ -1,0 +1,63 @@
+// ========== float ===========
+.clear
+  &:after
+    display: block
+    content: ''
+    clear: both
+.u-float--right
+  float: right
+.u-float--left
+  float: left
+// ========== image ===========
+.u-imgResponsive
+  display: inline-block
+  max-width: 100%
+  height: auto
+// ========== margin ===========
+$i : 0
+@while $i <= 50
+  .u-mt#{$i}
+    margin-top: #{$i}px
+  .u-mr#{$i}
+    margin-right: #{$i}px
+  .u-mb#{$i}
+    margin-bottom: #{$i}px
+  .u-ml#{$i}
+    margin-left: #{$i}px
+  $i : $i + 10
+.u-mr32
+  margin-right: 32px
+$i : 0
+@while $i <= 50
+  .u-pt#{$i}
+    padding-top: #{$i}px
+  .u-pr#{$i}
+    padding-right: #{$i}px
+  .u-pb#{$i}
+    padding-bottom: #{$i}px
+  .u-pl#{$i}
+    padding-left: #{$i}px
+  $i : $i + 10
+// ========== float ==========
+.u-float--right
+  float: right
+.u-float--left
+  float: left
+// ========== text-align ==========
+.u-textAlign--center
+  text-align: center
+.u-textAlign--right
+  text-align: right
+.u-textAlign--left
+  text-align: left
+// ========== is state ==========
+.is-globalNav--current
+  padding: 12px 10px
+  background: #ccc
+  color: #fff
+.is-fixed
+  position: fixed
+  top: 20px
+  left: 0
+  width: 128px
+  z-index: 9999

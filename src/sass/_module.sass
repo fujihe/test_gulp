@@ -1,0 +1,20 @@
+// ========== variables ==========
+$containerWidth : 100%
+$innerWidth : 960px
+$breakPoint-tb : 980px
+$breakPoint-sp : 640px
+
+=max-screen($breakpoint)
+  @media screen and (max-width: $breakpoint)
+    @content
+
+=min-screen($breakpoint)
+  @media screen and (min-width: $breakpoint)
+    @content
+
+=screen($breakpoint-min, $breakpoint-max)
+  @media screen and (min-width: $breakpoint-min) and ($max-width: $breakpoint-max)
+    @content
+=fs($size)
+  font-size: $size + px
+  font-size: ($size / 10) + rem
