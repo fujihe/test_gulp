@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="canonical" href="">
+<title>まとめならギャザリー|日常を充実させたい。キュレーションマガジン</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:title" content="まとめならギャザリー|日常を充実させたい。キュレーションマガジン">
+<meta property="og:description" content="">
+<meta property="og:type" content="website">
+<meta property="og:url" content="">
+<meta property="og:site_name" content="">
+<meta name="robots" content="index.follow">
+<link rel="stylesheet" href="/common/css/common.css">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+<!-- <?php (isset($_POST['flag'])) ? $_POST['flag'] = $_POST['flag'] : $_POST['flag'] = 0; ?>
+<?php require('./config.php'); ?> -->
+<script>
+var navFixed = navFixed || {};
+navFixed.action = function() {
+  this.initialize = function() {
+    var $nav = $('.p-globalNav');
+    var $offset = $nav.offset();
+    var $isFixed = $('.is-fixed');
+  },
+  $(window).scroll = function() {
+    if($(window).scrollTop() > $offset.top) {
+      $nav.addClass($isFixed);
+      $nav.css('margin-left', $offset.left);
+    }else{
+      $nav.removeClass($isFixed);
+      $nav.css('margin-left', '0');
+    }
+  };
+};
+navFixed.action();
+
+  // $(function() {
+  //   var nav = $('.p-globalNav'),
+  //   offset = nav.offset();
+  //   $(window).scroll(function() {
+  //     if($(window).scrollTop() > offset.top) {
+  //       nav.addClass('is-fixed');
+  //       nav.css('margin-left', offset.left);
+  //     }else{
+  //       nav.removeClass('is-fixed');
+  //       nav.css('margin-left', '0');
+  //     }
+  //   });
+  // });
+
+</script>
+</head>
+<body id="index">
+<header class="p-header">
+  <div class="l-inner p-header__inner">
+    <h1 class="p-header__siteLogo">
+      <a href="/">
+        <img src="/common/images/logo2x.png" width="148" height="38" alt="ギャザリー">
+      </a>
+    </h1>
+    <p class="p-header__siteDescription">あなたの日常を彩る「きっかけ」創出メディア</p>
+    <ul class="p-header__snsButton">
+      <li>
+        <a href="" class="p-header__snsButton--facebook"></a>
+      </li>
+      <li>
+        <a href="" class="p-header__snsButton--twitter"></a>
+      </li>
+      <li>
+        <a href="" class="p-header__snsButton--rss"></a>
+      </li>
+    </ul>
+    <div class="p-header__search">
+      <form actin="" method="post">
+        <input class="p-header__search--query u-float--left" type="text" name="q" value="" placeholder="気になるワードを入力してください" autocomplete="off" itemprop="query-input">
+        <button class="p-header__search--submit u-float--left" type="submit" value=""></button>
+      </form>
+    </div>
+  </div>
+</header>
+<section class="p-pageInfo u-mb20">
+  <div class="l-inner">
+    <ul class="p-pageInfo__breadCrumb u-float--left">
+      <li class="p-pageInfo__breadCrumb--item" itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+        <a class="p-pageInfo__breadCrumb--link" href="/" itemprop="url"><span itemprop="title">ギャザリー</span></a>
+      </li>
+      <li class="p-pageInfo__breadCrumb--item" itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+        <span class="p-pageInfo__breadCrumb--link" itemprop="title">グルメ</span>
+      </li>
+    </ul>
+    <ul class="p-pageInfo__login u-float--right">
+      <li class="p-pageInfo__login--item">
+        <a class="p-pageInfo__login--link" href="/">ログイン</a>
+      </li>
+      <li class="p-pageInfo__login--item">
+        <a class="p-pageInfo__login--link" href="/">お気に入り</a>
+      </li>
+    </ul>
+  </div>
+</section>
+<div class="u-mb20">
+  <p class="l-inner p-importantNotice">
+    <a class="p-importantNotice__link" href="/">ギャザリーからの重要なお知らせ</a>
+  </p>
+</div>
+<section class="l-container u-mb20">
+  <div class="l-inner">
+    <ul class="p-pickupL u-float--left">
+      <li class="p-pickupL__list">
+        <a class="p-pickupL__link" href="/">
+          <img class="u-imgResponsive" src="/common/images/index/img_main_article_01.jpg" width="640" height="572" alt="">
+          <span class="p-pickupL__link--txt">何これ！ステキ&hearts;おしゃれ雑誌をインテリアにする方法4つ！</span>
+        </a>
+      </li>
+      <li class="p-pickupL__list">
+        <a class="p-pickupL__link" href="/">
+          <img class="u-imgResponsive" src="/common/images/index/img_main_article_02.jpg" width="640" height="572" alt="">
+          <span class="p-pickupL__link--txt">素敵！可愛い！京都のオススメお土産<br>(雑貨・食べ物以外)</span>
+        </a>
+      </li>
+    </ul>
+    <ul class="p-pickupS u-float--left">
+      <li class="p-pickupS__list">
+        <a class="p-pickupS__link" href="/">
+          <img class="p-pickupS__link--img u-imgResponsive u-float--left" src="/common/images/index/img_sub_article_01.jpg" width="320" height="284" alt="">
+          <span class="p-pickupS__link--txt u-float--left">猫の手はやっぱり癒される！SNSで見つけた可愛いニャンコの手！</span>
+        </a>
+      </li>
+      <li class="p-pickupS__list">
+        <a class="p-pickupS__link" href="/">
+          <img class="p-pickupS__link--img u-imgResponsive u-float--left" src="/common/images/index/img_sub_article_02.jpg" width="320" height="284" alt="">
+          <span class="p-pickupS__link--txt u-float--left">作って飾って癒される&hearts;「テラリウム」の作り方とアイディア</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+</section>
+<div id="test" class="l-inner u-mb20">
+  <nav class="l-nav">
+    <!-- <?php ($_POST['flag']) ? $flag = $_POST['flag'] : $flag = 0; ?>
+    <ul class="p-globalNav">
+      <?php for($i =0; $i <= $cnt; $i++): ?>
+        <li class="p-globalNav__list<?php echo ($flag == $i) ? $is_class : '' ?>">
+          <?php echo ($flag == $i) ? $nav_name[$i] : '<a class="p-globalNav__link" href="'.$nav_link[$i].'">'.$nav_name[$i].'</a>' ?>
+        </li>
+      <?php endfor; ?>
+    </ul> -->
+
+    <ul class="p-globalNav">
+      <li class="p-globalNav__list is-globalNav--current">総合トップ</li>
+      <li class="p-globalNav__list">
+        <a class="p-globalNav__link" href="/">グルメ</a>
+      </li>
+      <li class="p-globalNav__list">
+        <a class="p-globalNav__link" href="/">美容</a>
+      </li>
+      <li class="p-globalNav__list">
+        <a class="p-globalNav__link" href="/">旅行・おでかけ</a>
+      </li>
+      <li class="p-globalNav__list">
+        <a class="p-globalNav__link" href="/">ファッション</a>
+      </li>
+      <li class="p-globalNav__list">
+        <a class="p-globalNav__link" href="/">ライフスタイル</a>
+      </li>
+      <li class="p-globalNav__list">
+        <a class="p-globalNav__link" href="/">恋愛</a>
+      </li>
+    </ul>
+  </nav>
+  <div class="l-side">
+    <h3 class="c-heading">昨日のランキング<span class="c-heading__label">05/16更新</span></h3>
+    <ul class="c-article">
+      <li class="c-article__list">
+        <a class="c-article__link" href="/">
+          <figure class="c-article__img">
+            <img class="u-imgResponsive" src="/common/images/article/img_thumb_170516.jpg" width="220" height="220" alt="">
+          </figure>
+          <div class="c-article__details">
+            <p class="c-article__title">【ダイソー・セリア】これは使える！とネットで話題の人気商品113選！</p>
+            <ul class="c-article__information">
+              <li class="c-article__curatorName">M.O1970</li>
+            </ul>
+          </div>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <section class="l-main">
+    <h2 class="c-heading">注目まとめ</h2>
+    <ul class="c-article">
+      <li class="c-article__list">
+        <a class="c-article__link" href="/">
+          <figure class="c-article__img">
+            <img class="u-imgResponsive" src="/common/images/article/img_thumb_170516.jpg" width="220" height="220" alt="">
+          </figure>
+          <div class="c-article__details">
+            <p class="c-article__title">【ダイソー・セリア】これは使える！とネットで話題の人気商品113選！</p>
+            <p class="c-article__description">
+            安いからついつい何でも買いたくなる100円均一ストアの商品。今回は、そんな色々ある商品の中から、ネットで「これは使える！」と評判の商品を選・・・
+            </p>
+            <ul class="c-article__information">
+              <li class="c-article__viewCount">1399413view</li>
+              <li class="c-article__favCount">★74</li>
+              <li class="c-article__curatorName">M.O1970</li>
+            </ul>
+          </div>
+        </a>
+      </li>
+      <li class="c-article__list">
+        <a class="c-article__link" href="/">
+          <figure class="c-article__img">
+            <img class="u-imgResponsive" src="/common/images/article/img_thumb_170516.jpg" width="220" height="220" alt="">
+          </figure>
+          <div class="c-article__details">
+            <p class="c-article__title">【ダイソー・セリア】これは使える！とネットで話題の人気商品113選！</p>
+            <p class="c-article__description">
+            安いからついつい何でも買いたくなる100円均一ストアの商品。今回は、そんな色々ある商品の中から、ネットで「これは使える！」と評判の商品を選・・・
+            </p>
+            <ul class="c-article__information">
+              <li class="c-article__viewCount">1399413view</li>
+              <li class="c-article__favCount">★74</li>
+              <li class="c-article__curatorName">M.O1970</li>
+            </ul>
+          </div>
+        </a>
+      </li>
+      <li class="c-article__list">
+        <a class="c-article__link" href="/">
+          <figure class="c-article__img">
+            <img class="u-imgResponsive" src="/common/images/article/img_thumb_170516.jpg" width="220" height="220" alt="">
+          </figure>
+          <div class="c-article__details">
+            <p class="c-article__title">【ダイソー・セリア】これは使える！とネットで話題の人気商品113選！</p>
+            <p class="c-article__description">
+            安いからついつい何でも買いたくなる100円均一ストアの商品。今回は、そんな色々ある商品の中から、ネットで「これは使える！」と評判の商品を選・・・
+            </p>
+            <ul class="c-article__information">
+              <li class="c-article__viewCount">1399413view</li>
+              <li class="c-article__favCount">★74</li>
+              <li class="c-article__curatorName">M.O1970</li>
+            </ul>
+          </div>
+        </a>
+      </li>
+      <li class="c-article__list">
+        <a class="c-article__link" href="/">
+          <figure class="c-article__img">
+            <img class="u-imgResponsive" src="/common/images/article/img_thumb_170516.jpg" width="220" height="220" alt="">
+          </figure>
+          <div class="c-article__details">
+            <p class="c-article__title">【ダイソー・セリア】これは使える！とネットで話題の人気商品113選！</p>
+            <p class="c-article__description">
+            安いからついつい何でも買いたくなる100円均一ストアの商品。今回は、そんな色々ある商品の中から、ネットで「これは使える！」と評判の商品を選・・・
+            </p>
+            <ul class="c-article__information">
+              <li class="c-article__viewCount">1399413view</li>
+              <li class="c-article__favCount">★74</li>
+              <li class="c-article__curatorName">M.O1970</li>
+            </ul>
+          </div>
+        </a>
+      </li>
+      <li class="c-article__list">
+        <a class="c-article__link" href="/">
+          <figure class="c-article__img">
+            <img class="u-imgResponsive" src="/common/images/article/img_thumb_170516.jpg" width="220" height="220" alt="">
+          </figure>
+          <div class="c-article__details">
+            <p class="c-article__title">【ダイソー・セリア】これは使える！とネットで話題の人気商品113選！</p>
+            <p class="c-article__description">
+            安いからついつい何でも買いたくなる100円均一ストアの商品。今回は、そんな色々ある商品の中から、ネットで「これは使える！」と評判の商品を選・・・
+            </p>
+            <ul class="c-article__information">
+              <li class="c-article__viewCount">1399413view</li>
+              <li class="c-article__favCount">★74</li>
+              <li class="c-article__curatorName">M.O1970</li>
+            </ul>
+          </div>
+        </a>
+      </li>
+    </ul>
+  </section>
+</div>
+<nav class="p-footerNav">
+  <div class="l-inner">
+    <dl>
+      <dt class="p-footerNav__heading">カテゴリ一覧</dt>
+      <dd class="p-footerNav__category">
+        <ul class="p-footerNav__list">
+          <li class="p-footerNav__list__item">
+            <a class="p-footerNav__list__link" href="/">グルメ</a>
+          </li>
+          <li class="p-footerNav__list__item">
+            <a class="p-footerNav__list__link" href="/">美容</a>
+          </li>
+          <li class="p-footerNav__list__item">
+            <a class="p-footerNav__list__link" href="/">旅行・おでかけ</a>
+          </li>
+          <li class="p-footerNav__list__item">
+            <a class="p-footerNav__list__link" href="/">ファッション</a>
+          </li>
+          <li class="p-footerNav__list__item">
+            <a class="p-footerNav__list__link" href="/">ライフスタイル</a>
+          </li>
+          <li class="p-footerNav__list__item">
+            <a class="p-footerNav__list__link" href="/">恋愛</a>
+          </li>
+        </ul>
+      </dd>
+      <dt class="p-footerNav__heading">サイトマップ</dt>
+      <dd class="p-footerNav__category">
+        <ul class="p-footerNav__list">
+          <li class="p-footerNav__list__item">
+            <a class="p-footerNav__list__link" href="/">総合トップ</a>
+          </li>
+          <li class="p-footerNav__list__item">
+            <a class="p-footerNav__list__link" href="/">タグ一覧</a>
+          </li>
+          <li class="p-footerNav__list__item">
+            <a class="p-footerNav__list__link" href="/">キュレーター一覧</a>
+          </li>
+          <li class="p-footerNav__list__item">
+            <a class="p-footerNav__list__link" href="/">まとめ一覧</a>
+          </li>
+        </ul>
+      </dd>
+      <dt class="p-footerNav__heading">ご利用にあたって</dt>
+      <dd class="p-footerNav__category">
+        <ul class="p-footerNav__list">
+          <li class="p-footerNav__list__item">
+            <a class="p-footerNav__list__link" href="/">利用規約</a>
+          </li>
+          <li class="p-footerNav__list__item">
+            <a class="p-footerNav__list__link" href="/">プライバシーポリシー</a>
+          </li>
+          <li class="p-footerNav__list__item">
+            <a class="p-footerNav__list__link" href="/">ヘルプ</a>
+          </li>
+        </ul>
+      </dd>
+    </dl>
+    <ul class="p-relationSite">
+      <li class="p-relationSite__list">
+        <a class="p-relationSite__list__link" href="/">旅行ならじゃらんnet</a>
+      </li>
+      <li class="p-relationSite__list">
+        <a class="p-relationSite__list__link" href="/">ゴルフ場予約じゃらんゴルフ</a>
+      </li>
+      <li class="p-relationSite__list">
+        <a class="p-relationSite__list__link" href="/">海外旅行ならエイビーロード</a>
+      </li>
+      <li class="p-relationSite__list">
+        <a class="p-relationSite__list__link" href="/">ホットペッパーグルメ</a>
+      </li>
+      <li class="p-relationSite__list">
+        <a class="p-relationSite__list__link" href="/">ブッキングテーブル</a>
+      </li>
+      <li class="p-relationSite__list">
+        <a class="p-relationSite__list__link" href="/">ホットペッパービューティー</a>
+      </li>
+      <li class="p-relationSite__list">
+        <a class="p-relationSite__list__link" href="/">家具インテリアのタブルーム</a>
+      </li>
+      <li class="p-relationSite__list">
+        <a class="p-relationSite__list__link" href="/">旅行ならじゃらんnet</a>
+      </li>
+      <li class="p-relationSite__list">
+        <a class="p-relationSite__list__link" href="/">ゴルフ場予約じゃらんゴルフ</a>
+      </li>
+      <li class="p-relationSite__list">
+        <a class="p-relationSite__list__link" href="/">海外旅行ならエイビーロード</a>
+      </li>
+      <li class="p-relationSite__list">
+        <a class="p-relationSite__list__link" href="/">ホットペッパーグルメ</a>
+      </li>
+      <li class="p-relationSite__list">
+        <a class="p-relationSite__list__link" href="/">ブッキングテーブル</a>
+      </li>
+      <li class="p-relationSite__list">
+        <a class="p-relationSite__list__link" href="/">ホットペッパービューティー</a>
+      </li>
+      <li class="p-relationSite__list">
+        <a class="p-relationSite__list__link" href="/">家具インテリアのタブルーム</a>
+      </li>
+    </ul>
+    <a class="footerLicense__logo" href="/"></a>
+  </div>
+</nav>
+<footer class="p-footer">
+  <div class="l-inner">
+    <p class="p-footerLogo">
+      <a href="/">
+        <img class="u-imgResponsive" src="/common/images/footer_logo.png" width="518" height="54" alt="RECRUIT">
+      </a>
+    </p>
+  </div>
+</footer>
+</body>
+</html>

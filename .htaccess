@@ -1,0 +1,5 @@
+AddType application/x-httpd-php .php .html .htm
+AddHandler application/x-httpd-php .php .html .htm
+
+php_flag allow_url_fopen on
+php_flag allow_url_include on
